@@ -3,348 +3,132 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>En Şap Ustası | 15 İlde Profesyonel Şap Hizmeti</title>
-
-<meta name="description" content="Gaziantep, Adana, Hatay, Kahramanmaraş ve 15 ilde profesyonel şap uygulaması, lazer tesviye ve helikopter perdah hizmeti.">
-
+<meta name="description" content="En Şap Ustası; Gaziantep, Adana, Hatay, Kahramanmaraş, Mersin ve çevre 15 ilde mastarlı şap, makineli şap, lazer tesviye ve helikopter perdah hizmeti verir.">
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
-font-family:Arial,sans-serif;
-background:#0d0d0d;
-color:white;
-line-height:1.6;
-}
-
-header{
-position:fixed;
-top:0;
-width:100%;
-background:#000;
-padding:15px 40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-z-index:1000;
-border-bottom:1px solid #222;
-}
-
-.logo{
-font-size:34px;
-font-weight:bold;
-color:#ffcc00;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-font-size:15px;
-}
-
-.phone-btn{
-background:#ffcc00;
-color:#000;
-padding:12px 24px;
-border-radius:12px;
-font-weight:bold;
-text-decoration:none;
-}
-
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
-url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600&auto=format&fit=crop');
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-padding:100px 8%;
-}
-
-.hero-content{
-max-width:700px;
-}
-
-.hero h1{
-font-size:78px;
-line-height:1.1;
-margin-bottom:25px;
-}
-
-.hero span{
-color:#ffcc00;
-}
-
-.hero p{
-font-size:24px;
-color:#ddd;
-margin-bottom:35px;
-}
-
-.buttons{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-}
-
-.btn{
-padding:16px 35px;
-border-radius:12px;
-text-decoration:none;
-font-size:18px;
-font-weight:bold;
-}
-
-.yellow{
-background:#ffcc00;
-color:#000;
-}
-
-.dark{
-border:2px solid #ffcc00;
-color:#ffcc00;
-}
-
-.section{
-padding:100px 8%;
-}
-
-.section-title{
-text-align:center;
-font-size:44px;
-margin-bottom:60px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-}
-
-.card{
-background:#161616;
-border-radius:18px;
-overflow:hidden;
-border:1px solid #222;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-.card img{
-width:100%;
-height:240px;
-object-fit:cover;
-}
-
-.card-content{
-padding:25px;
-}
-
-.card h3{
-font-size:30px;
-margin-bottom:15px;
-color:#ffcc00;
-}
-
-.card p{
-color:#ccc;
-font-size:17px;
-}
-
-.cities{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:18px;
-margin-top:40px;
-}
-
-.city{
-border:2px solid #ffcc00;
-padding:18px;
-text-align:center;
-border-radius:12px;
-font-weight:bold;
-background:#111;
-}
-
-.districts{
-margin-top:60px;
-background:#151515;
-padding:40px;
-border-radius:18px;
-line-height:2;
-}
-
-.districts h3{
-color:#ffcc00;
-margin-bottom:25px;
-font-size:30px;
-}
-
-.cta{
-background:#ffcc00;
-padding:80px 8%;
-text-align:center;
-color:#000;
-}
-
-.cta h2{
-font-size:48px;
-margin-bottom:20px;
-}
-
-.cta p{
-font-size:22px;
-margin-bottom:30px;
-}
-
-footer{
-background:#000;
-padding:50px 8%;
-text-align:center;
-color:#aaa;
-}
-
-.whatsapp{
-position:fixed;
-right:20px;
-bottom:20px;
-background:#25D366;
-color:white;
-padding:18px 24px;
-border-radius:50px;
-font-size:18px;
-font-weight:bold;
-text-decoration:none;
-z-index:999;
-box-shadow:0 0 20px rgba(0,0,0,0.4);
-}
-
-@media(max-width:768px){
-
-header{
-padding:15px;
-flex-direction:column;
-gap:15px;
-}
-
-nav{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-}
-
-.hero h1{
-font-size:46px;
-}
-
-.hero p{
-font-size:18px;
-}
-
-.section-title{
-font-size:34px;
-}
-
-}
-
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#060606;color:#fff}
+a{text-decoration:none;color:inherit}
+header{position:fixed;top:0;left:0;width:100%;z-index:99;background:#000;display:flex;align-items:center;justify-content:space-between;padding:18px 7%;border-bottom:1px solid #222}
+.logo{font-size:34px;font-weight:900}.logo span{color:#f5c400}
+nav a{margin:0 12px;color:#ddd;font-weight:700}
+.phone{background:#f5c400;color:#000;padding:13px 22px;border-radius:12px;font-weight:900}
+.hero{min-height:100vh;padding:150px 7% 80px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;background:radial-gradient(circle at right,#3b3100,#060606 55%)}
+.hero h4{color:#f5c400;font-size:20px;margin-bottom:15px}
+.hero h1{font-size:82px;line-height:.95;margin-bottom:25px}.hero h1 span{color:#f5c400}
+.hero p{font-size:24px;color:#ddd;line-height:1.5;margin-bottom:30px}
+.btns{display:flex;gap:15px;flex-wrap:wrap}.btn{padding:17px 30px;border-radius:12px;font-weight:900;font-size:19px}
+.yellow{background:#f5c400;color:#000}.outline{border:2px solid #f5c400;color:#f5c400}
+.mock{background:#111;border:1px solid #333;border-radius:28px;padding:28px;box-shadow:0 0 60px #000}
+.machine{height:360px;border-radius:22px;background:linear-gradient(145deg,#222,#050505);position:relative;overflow:hidden;border:2px solid #333}
+.machine:before{content:"MASTARLI ŞAP • LAZER TESVİYE • HELİKOPTER PERDAH";position:absolute;top:25px;left:25px;color:#f5c400;font-weight:900}
+.floor{position:absolute;bottom:0;width:100%;height:45%;background:linear-gradient(160deg,#777,#222)}
+.tool{position:absolute;bottom:115px;left:60px;width:260px;height:16px;background:#f5c400;transform:rotate(-8deg);border-radius:10px}
+.circle{position:absolute;right:70px;bottom:80px;width:115px;height:115px;border:12px solid #f5c400;border-radius:50%}
+.laser{position:absolute;right:125px;top:90px;width:3px;height:170px;background:#ffea70;box-shadow:0 0 18px #f5c400}
+.section{padding:90px 7%}.title{text-align:center;margin-bottom:50px}.title p{color:#f5c400;font-weight:900}.title h2{font-size:48px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+.card{background:#111;border:1px solid #292929;border-radius:22px;padding:30px;min-height:230px}
+.icon{font-size:48px;margin-bottom:18px}.card h3{font-size:28px;color:#f5c400;margin-bottom:12px}.card p{color:#ccc;font-size:18px;line-height:1.6}
+.cities{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:15px}
+.city{border:2px solid #f5c400;padding:17px;border-radius:13px;text-align:center;font-weight:900;background:#111}
+.districts{margin-top:45px;background:#111;border:1px solid #333;border-radius:22px;padding:35px;line-height:2;font-size:18px;color:#ddd}
+.districts h3{color:#f5c400;font-size:30px;margin-bottom:18px}
+.cta{background:#f5c400;color:#000;text-align:center;padding:70px 7%}.cta h2{font-size:46px}.cta p{font-size:22px;margin:15px 0 25px}
+footer{background:#000;color:#aaa;text-align:center;padding:35px}
+.whatsapp{position:fixed;right:22px;bottom:22px;background:#25d366;color:#fff;padding:17px 25px;border-radius:40px;font-weight:900;z-index:100}
+@media(max-width:850px){header{flex-direction:column;gap:12px;padding:15px}nav{display:none}.hero{grid-template-columns:1fr;padding:140px 25px 60px}.hero h1{font-size:50px}.hero p{font-size:19px}.title h2{font-size:34px}.machine{height:280px}}
 </style>
 </head>
 
 <body>
 
 <header>
-
-<div class="logo">EN ŞAP USTASI</div>
-
+<div class="logo">EN <span>ŞAP</span> USTASI</div>
 <nav>
-<a href="#">Anasayfa</a>
-<a href="#">Hizmetler</a>
-<a href="#">Hizmet Bölgeleri</a>
-<a href="#">Galeri</a>
-<a href="#">İletişim</a>
+<a href="#hizmet">Hizmetler</a>
+<a href="#bolge">Bölgeler</a>
+<a href="#iletisim">İletişim</a>
 </nav>
-
-<a class="phone-btn" href="tel:05459756754">
-📞 0545 975 67 54
-</a>
-
+<a class="phone" href="tel:05459756754">📞 0545 975 67 54</a>
 </header>
 
 <section class="hero">
-
-<div class="hero-content">
-
-<h1>
-Profesyonel <span>Şap</span> Hizmeti
-</h1>
-
-<p>
-15 ilde profesyonel şap uygulaması, mastarlı tesviye ve helikopter perdah hizmeti.
-</p>
-
-<div class="buttons">
-
-<a class="btn yellow" href="tel:05459756754">
-HEMEN ARA
-</a>
-
-<a class="btn dark" href="https://wa.me/905459756754">
-WHATSAPP
-</a>
-
+<div>
+<h4>PROFESYONEL ZEMİN ÇÖZÜMLERİ</h4>
+<h1>EN <span>ŞAP</span><br>USTASI</h1>
+<p>15 ilde mastarlı şap, makineli şap, lazer tesviye ve helikopter perdah hizmeti. Hızlı keşif, temiz işçilik, düzgün zemin.</p>
+<div class="btns">
+<a class="btn yellow" href="tel:05459756754">HEMEN ARA</a>
+<a class="btn outline" href="https://wa.me/905459756754">WHATSAPP</a>
 </div>
-
 </div>
-
+<div class="mock">
+<div class="machine">
+<div class="laser"></div>
+<div class="tool"></div>
+<div class="circle"></div>
+<div class="floor"></div>
+</div>
+</div>
 </section>
 
-<section class="section">
-
-<h2 class="section-title">
-Profesyonel Şap Çözümleri
-</h2>
-
+<section class="section" id="hizmet">
+<div class="title">
+<p>HİZMETLERİMİZ</p>
+<h2>Profesyonel Şap Uygulamaları</h2>
+</div>
 <div class="cards">
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop">
-
-<div class="card-content">
-
-<h3>Makineli Şap</h3>
-
-<p>
-Profesyonel şap makineleri ve mastarlı uygulama ile düzgün zemin çözümleri.
-</p>
-
+<div class="card"><div class="icon">🏗️</div><h3>Mastarlı Şap</h3><p>Mastar ile düzgün yüzey, sağlam zemin ve profesyonel uygulama.</p></div>
+<div class="card"><div class="icon">⚙️</div><h3>Makineli Şap</h3><p>Şap makinesi ile hızlı, dengeli ve kaliteli zemin uygulaması.</p></div>
+<div class="card"><div class="icon">📐</div><h3>Lazer Tesviye</h3><p>Lazer ölçüm desteğiyle doğru kot ve düzgün zemin tesviyesi.</p></div>
+<div class="card"><div class="icon">🌀</div><h3>Helikopter Perdah</h3><p>Pürüzsüz, dayanıklı ve profesyonel beton yüzey bitirme.</p></div>
 </div>
+</section>
+
+<section class="section" id="bolge">
+<div class="title">
+<p>HİZMET BÖLGELERİ</p>
+<h2>15 İlde Hizmet Veriyoruz</h2>
 </div>
 
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop">
-
-<div class="card-content">
-
-<h3>Lazer Tesviye</h3>
-
-<p>
-Milimetrik doğrulukta lazerli zemin tesviye uygulaması.
-</p>
-
+<div class="cities">
+<div class="city">Gaziantep</div><div class="city">Adana</div><div class="city">Hatay</div><div class="city">Kahramanmaraş</div><div class="city">Osmaniye</div>
+<div class="city">Mersin</div><div class="city">Şanlıurfa</div><div class="city">Adıyaman</div><div class="city">Malatya</div><div class="city">Diyarbakır</div>
+<div class="city">Elazığ</div><div class="city">Kilis</div><div class="city">Kayseri</div><div class="city">Sivas</div><div class="city">Mardin</div>
 </div>
+
+<div class="districts">
+<h3>Hizmet Verdiğimiz İlçeler</h3>
+<p><b>Gaziantep:</b> Şahinbey, Şehitkamil, Nizip, İslahiye, Nurdağı, Oğuzeli</p>
+<p><b>Adana:</b> Seyhan, Çukurova, Yüreğir, Sarıçam, Ceyhan, Kozan</p>
+<p><b>Hatay:</b> Antakya, Defne, İskenderun, Dörtyol, Kırıkhan, Reyhanlı</p>
+<p><b>Kahramanmaraş:</b> Onikişubat, Dulkadiroğlu, Elbistan, Afşin, Pazarcık</p>
+<p><b>Mersin:</b> Yenişehir, Mezitli, Toroslar, Akdeniz, Tarsus, Erdemli</p>
+<p><b>Şanlıurfa:</b> Haliliye, Karaköprü, Eyyübiye, Siverek, Viranşehir</p>
+<p><b>Diyarbakır:</b> Bağlar, Kayapınar, Yenişehir, Sur, Ergani</p>
+<p><b>Malatya:</b> Battalgazi, Yeşilyurt, Akçadağ, Doğanşehir</p>
+<p><b>Adıyaman:</b> Merkez, Besni, Gölbaşı, Kahta</p>
+<p><b>Osmaniye:</b> Merkez, Kadirli, Düziçi, Bahçe</p>
+<p><b>Kilis:</b> Merkez, Elbeyli, Musabeyli, Polateli</p>
+<p><b>Elazığ:</b> Merkez, Kovancılar, Karakoçan</p>
+<p><b>Kayseri:</b> Melikgazi, Kocasinan, Talas</p>
+<p><b>Sivas:</b> Merkez, Şarkışla, Zara</p>
+<p><b>Mardin:</b> Artuklu, Kızıltepe, Midyat, Nusaybin</p>
 </div>
+</section>
+
+<section class="cta" id="iletisim">
+<h2>Ücretsiz Keşif ve Fiyat Teklifi</h2>
+<p>Mastarlı şap, makineli şap, lazer tesviye ve helikopter perdah için hemen ulaşın.</p>
+<a class="btn outline" href="tel:05459756754">0545 975 67 54</a>
+</section>
+
+<footer>
+© 2026 En Şap Ustası | 15 ilde profesyonel şap hizmeti
+</footer>
+
+<a class="whatsapp" href="https://wa.me/905459756754">WhatsApp Yaz</a>
+
+</body>
+</html>
